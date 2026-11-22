@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:directory",
+      "prefix": "entity/chest/",
+      "source": "entity/chest"
+    },
+    {
+      "type": "minecraft:directory",
+      "prefix": "entity/signs/",
+      "source": "entity/signs"
+    }
+  ]
+}

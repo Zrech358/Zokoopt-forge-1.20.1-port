@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LGPL-3.0-or-later"
+
+[[mods]]
+modId="zakoopt"
+version="2.1.3-forge1.20.1-port"
+displayName="ZakoOpt"
+authors="Zako"
+description='''
+ZakoOpt Forge 1.20.1 porting workspace.
+This preliminary build is a bootstrap only; the original optimization features
+have not yet been ported to Minecraft 1.20.1.
+'''
+
+[[dependencies.zakoopt]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.zakoopt]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.zakoopt]]
+modId="immediatelyfast"
+mandatory=true
+versionRange="[1.2.0,)"
+ordering="AFTER"
+side="CLIENT"
